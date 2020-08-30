@@ -9,7 +9,7 @@
 ## Описание процесса тестирования
 
 В процессе тестирования использовался следующий артефакт:
-* чек-лист (https://github.com/d-AMigo/KeyValidator/blob/master/Chek-list%20for%20KeyValidator.docx)
+* Check-list for Credit Card Number Validator
 
 В качестве тестовых данных использовались данные freeformatter.com (https://www.freeformatter.com/credit-card-number-generator-validator.html) и собственные данные:
 * 4969289030458657
