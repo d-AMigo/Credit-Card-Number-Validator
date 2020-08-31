@@ -6,22 +6,27 @@
 
 На тестирование затрачено: 1 час.
 
+В результате тестирования выявлены следующие дефекты:
+* https://github.com/d-AMigo/Credit-Card-Number-Validator/issues/1
+* https://github.com/d-AMigo/Credit-Card-Number-Validator/issues/2
+
 ## Описание процесса тестирования
 
 В процессе тестирования использовался следующий артефакт:
 * Check-list for Credit Card Number Validator
 
 В качестве тестовых данных использовались данные freeformatter.com (https://www.freeformatter.com/credit-card-number-generator-validator.html) и собственные данные:
-* 4969289030458657
-* 5273419417109965
-* 4929146341055628662
-* 6011993192469023274
-* пустое значение
-* пробел
-* 0
-* -1
-* 0000000000000000
-* Credit Card Number
+* Валидный номер карты 4969289030458657 возвращает Result is OK
+* Валидный номер карты 5273419417109965 возвращает Result is OK
+* Валидный номер карты 4929146341055628662 возвращает Result is OK
+* Валидный номер карты 6011993192469023274 возвращает Result is OK
+* Пустое значение String number возвращает Result is FAIL
+* Пробел в значении String number возвращает Result is FAIL
+* 0 в значении String number возвращает Result is FAIL
+* -1 в значении String number возвращает Result is FAIL
+* 0000000000000000 в значении String number возвращает Result is FAIL
+* Credit Card Number в значении String number возвращает Result is FAIL
+
 
 Тестирование производилось в следующем окружении:
 * Windows 7, x64
